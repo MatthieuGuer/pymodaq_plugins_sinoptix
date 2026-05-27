@@ -25,20 +25,8 @@ Use this template to create a repository on your account and start the developme
 Authors
 =======
 
-* First Author  (myemail@xxx.org)
-* Other author (myotheremail@xxx.org)
+* Matthieu Guer  (m.guer@hw.ac.uk)
 
-.. if needed use this field
-
-    Contributors
-    ============
-
-    * First Contributor
-    * Other Contributors
-
-.. if needed use this field
-
-  Depending on the plugin type, delete/complete the fields below
 
 
 Instruments
@@ -49,40 +37,16 @@ Below is the list of instruments included in this plugin
 Actuators
 +++++++++
 
-* **yyy**: control of yyy actuators
-* **xxx**: control of xxx actuators
-
-Viewer0D
-++++++++
-
-* **yyy**: control of yyy 0D detector
-* **xxx**: control of xxx 0D detector
-
-Viewer1D
-++++++++
-
-* **yyy**: control of yyy 1D detector
-* **xxx**: control of xxx 1D detector
-
-
-Viewer2D
-++++++++
-
-* **yyy**: control of yyy 2D detector
-* **xxx**: control of xxx 2D detector
-
-
-PID Models
-==========
-
-
-Extensions
-==========
+* **MRM**: control of MRM-002 motorized rotation mount from Sinoptix / Xinuo photonics
 
 
 Installation instructions
 =========================
 
-* PyMoDAQ’s version.
-* Operating system’s version.
-* What manufacturer’s drivers should be installed to make this plugin run?
+Tested on:
+* PyMoDAQ 5.1.x
+* Windows 11
+
+* Use the configuration tool from Xinuo the first time to configure the motor. 
+* Use the controller tool from Xinuo to figure out the COM port corresponding to the motor.
+* You don't need any additionnal programm or dll to use this plugin.

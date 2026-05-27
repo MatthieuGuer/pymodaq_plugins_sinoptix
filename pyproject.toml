@@ -13,16 +13,14 @@ name = "pymodaq_plugins_sinoptix" #todo modify template by your plugin short nam
 description = 'some word about your plugin'
 dependencies = [
     "pymodaq>=5.0.0",
-    #todo: list here all dependencies your package may have
+    "pyserial>=3.5"
 ]
 
 authors = [
-    {name = "Name Surname", email = "myname@test.fr"},
-    #todo: list here all authors of your plugin
+    {name = "Matthieu Guer", email = "m.guer@hw.ac.uk"},
 ]
 maintainers = [
-    {name = "Name Surname", email = "myname@test.fr"},
-    #todo: list here all maintainers of your plugin
+    {name = "Matthieu Guer", email = "m.guer@hw.ac.uk"},
 ]
 
 # nottodo: leave everything below as is!
